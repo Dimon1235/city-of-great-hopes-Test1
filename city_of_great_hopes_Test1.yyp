@@ -3,6 +3,7 @@
     {"id":{"name":"ob_doc_nub","path":"objects/ob_doc_nub/ob_doc_nub.yy",},"order":3,},
     {"id":{"name":"sp_doc_wall","path":"sprites/sp_doc_wall/sp_doc_wall.yy",},"order":1,},
     {"id":{"name":"ob_doc_wall","path":"objects/ob_doc_wall/ob_doc_wall.yy",},"order":2,},
+    {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},"order":3,},
     {"id":{"name":"sp_doc_nub","path":"sprites/sp_doc_nub/sp_doc_nub.yy",},"order":2,},
     {"id":{"name":"Object1","path":"objects/Object1/Object1.yy",},"order":1,},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":0,},
