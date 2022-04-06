@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite1",
-    "path": "sprites/Sprite1/Sprite1.yy",
+    "name": "sp_doc_nub",
+    "path": "sprites/sp_doc_nub/sp_doc_nub.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,10 +20,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [
-    {"x":18.0,"y":22.0,},
-    {"x":26.0,"y":22.0,},
-    {"x":26.0,"y":32.0,},
-    {"x":18.0,"y":32.0,},
+    {"x":0.0,"y":0.0,},
+    {"x":64.0,"y":0.0,},
+    {"x":64.0,"y":64.0,},
+    {"x":0.0,"y":64.0,},
   ],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
@@ -36,7 +36,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Object1",
+  "name": "ob_doc_nub",
   "tags": [],
   "resourceType": "GMObject",
 }
