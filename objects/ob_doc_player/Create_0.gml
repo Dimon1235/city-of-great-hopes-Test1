@@ -4,5 +4,5 @@ pspeed=4;
 wsp=0;
 dsp=0;
 onp=0;
-grv=0.08;
-jump=-4;
+grv=0.25;
+jump=-7;
