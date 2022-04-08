@@ -24,5 +24,14 @@ else {
 }
 wsp = wsp+grv;
 onp = place_meeting(x, y+1, ob_doc_wall);
-
-
+if(keyboard_check_pressed(ord("E"))){
+	instance_create_depth(x, y, 10, ob_doc_blik)
+	time=5;
+}
+time=time-1;
+if(time<=0){
+	instance_destroy(ob_doc_blik);
+}
+if(hp==0){
+	instance_destroy();
+}
