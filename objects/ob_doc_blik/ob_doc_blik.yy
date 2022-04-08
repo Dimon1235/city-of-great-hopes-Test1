@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sp_doc_nub",
-    "path": "sprites/sp_doc_nub/sp_doc_nub.yy",
+    "name": "sp_doc_blik",
+    "path": "sprites/sp_doc_blik/sp_doc_blik.yy",
   },
   "solid": false,
   "visible": true,
@@ -9,7 +9,7 @@
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": true,
-  "physicsSensor": false,
+  "physicsSensor": true,
   "physicsShape": 1,
   "physicsGroup": 1,
   "physicsDensity": 0.5,
@@ -25,11 +25,7 @@
     {"x":64.0,"y":64.0,},
     {"x":0.0,"y":64.0,},
   ],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"ob_doc_blik","path":"objects/ob_doc_blik/ob_doc_blik.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -37,7 +33,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ob_doc_nub",
+  "name": "ob_doc_blik",
   "tags": [],
   "resourceType": "GMObject",
 }

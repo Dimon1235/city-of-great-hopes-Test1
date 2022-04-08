@@ -1,4 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-x = x+sign(Object1.x-x)*nsp;
-y = y+sign(Object1.y-y)*nsp;
+if(instance_exists(ob_doc_player)){
+	x = x+sign(ob_doc_player.x-x)*nsp;
+}
+if(hp<=0){
+	instance_destroy();
+}
