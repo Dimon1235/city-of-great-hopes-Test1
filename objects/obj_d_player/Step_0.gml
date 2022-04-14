@@ -12,5 +12,6 @@ directy = keyup - keydown;
 
 if( directy !=0 && directx !=0 ) spd=spd*0.8; 
 
-hspeed += directx*spd;
-vspeed -= directy*spd;
+x += directx*spd;
+y -= directy*spd;
+global.reloadt-=1;
