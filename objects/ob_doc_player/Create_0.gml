@@ -7,3 +7,4 @@ wsp=0;
 grv=0.5;
 jump=-10;
 time=10;
+hp=100;
