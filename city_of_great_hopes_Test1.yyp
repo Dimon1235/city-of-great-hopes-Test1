@@ -1,13 +1,12 @@
 {
   "resources": [
-    {"id":{"name":"obj_d_hit_1","path":"objects/obj_d_hit_1/obj_d_hit_1.yy",},"order":1,},
-    {"id":{"name":"obj_d_player","path":"objects/obj_d_player/obj_d_player.yy",},"order":0,},
-    {"id":{"name":"spr_d_player","path":"sprites/spr_d_player/spr_d_player.yy",},"order":0,},
-    {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"order":1,},
-    {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},"order":3,},
-    {"id":{"name":"spr_d_room_1","path":"sprites/spr_d_room_1/spr_d_room_1.yy",},"order":2,},
-    {"id":{"name":"scr_d_weaspon","path":"scripts/scr_d_weaspon/scr_d_weaspon.yy",},"order":0,},
-    {"id":{"name":"Rm_d_test_1","path":"rooms/Rm_d_test_1/Rm_d_test_1.yy",},"order":0,},
+    {"id":{"name":"obj_dim_hit_1","path":"objects/obj_dim_hit_1/obj_dim_hit_1.yy",},"order":1,},
+    {"id":{"name":"obj_dim_player","path":"objects/obj_dim_player/obj_dim_player.yy",},"order":0,},
+    {"id":{"name":"spr_dim_player","path":"sprites/spr_dim_player/spr_dim_player.yy",},"order":0,},
+    {"id":{"name":"spr_dim_hit_1","path":"sprites/spr_dim_hit_1/spr_dim_hit_1.yy",},"order":3,},
+    {"id":{"name":"spr_dim_room_1","path":"sprites/spr_dim_room_1/spr_dim_room_1.yy",},"order":2,},
+    {"id":{"name":"scr_dim_weaspon","path":"scripts/scr_dim_weaspon/scr_dim_weaspon.yy",},"order":0,},
+    {"id":{"name":"Rm_dim_test_1","path":"rooms/Rm_dim_test_1/Rm_dim_test_1.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
@@ -21,7 +20,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Rm_d_test_1","path":"rooms/Rm_d_test_1/Rm_d_test_1.yy",},},
+    {"roomId":{"name":"Rm_dim_test_1","path":"rooms/Rm_dim_test_1/Rm_dim_test_1.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

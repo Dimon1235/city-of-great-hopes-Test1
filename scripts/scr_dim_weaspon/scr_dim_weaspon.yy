@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scr_d_weaspon",
+  "name": "scr_dim_weaspon",
   "tags": [],
   "resourceType": "GMScript",
 }
