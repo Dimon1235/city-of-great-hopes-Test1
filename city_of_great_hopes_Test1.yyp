@@ -1,15 +1,18 @@
 {
   "resources": [
+    {"id":{"name":"scr_dim_plyerstate_free","path":"scripts/scr_dim_plyerstate_free/scr_dim_plyerstate_free.yy",},"order":2,},
     {"id":{"name":"ob_doc_nub","path":"objects/ob_doc_nub/ob_doc_nub.yy",},"order":3,},
     {"id":{"name":"ob_doc_blik","path":"objects/ob_doc_blik/ob_doc_blik.yy",},"order":4,},
     {"id":{"name":"sp_doc_blik","path":"sprites/sp_doc_blik/sp_doc_blik.yy",},"order":5,},
     {"id":{"name":"ob_doc_blik1","path":"objects/ob_doc_blik1/ob_doc_blik1.yy",},"order":5,},
     {"id":{"name":"scr_dim_player_free","path":"scripts/scr_dim_player_free/scr_dim_player_free.yy",},"order":1,},
+    {"id":{"name":"scr_dim_playerstate_meelat","path":"scripts/scr_dim_playerstate_meelat/scr_dim_playerstate_meelat.yy",},"order":3,},
     {"id":{"name":"sp_doc_playerd","path":"sprites/sp_doc_playerd/sp_doc_playerd.yy",},"order":6,},
     {"id":{"name":"obj_dim_player","path":"objects/obj_dim_player/obj_dim_player.yy",},"order":6,},
     {"id":{"name":"sp_doc_wall","path":"sprites/sp_doc_wall/sp_doc_wall.yy",},"order":1,},
     {"id":{"name":"sp_doc_playera","path":"sprites/sp_doc_playera/sp_doc_playera.yy",},"order":7,},
     {"id":{"name":"sp_doc_fon","path":"sprites/sp_doc_fon/sp_doc_fon.yy",},"order":4,},
+    {"id":{"name":"scr_dim_playerstate_rangeat","path":"scripts/scr_dim_playerstate_rangeat/scr_dim_playerstate_rangeat.yy",},"order":4,},
     {"id":{"name":"ob_doc_wall","path":"objects/ob_doc_wall/ob_doc_wall.yy",},"order":2,},
     {"id":{"name":"sp_doc_nub","path":"sprites/sp_doc_nub/sp_doc_nub.yy",},"order":2,},
     {"id":{"name":"scr_dim_weapon","path":"scripts/scr_dim_weapon/scr_dim_weapon.yy",},"order":0,},
