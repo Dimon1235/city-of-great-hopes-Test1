@@ -1,17 +1,12 @@
 {
   "resources": [
-    {"id":{"name":"ob_doc_nub","path":"objects/ob_doc_nub/ob_doc_nub.yy",},"order":3,},
-    {"id":{"name":"ob_doc_blik","path":"objects/ob_doc_blik/ob_doc_blik.yy",},"order":4,},
-    {"id":{"name":"sp_doc_blik","path":"sprites/sp_doc_blik/sp_doc_blik.yy",},"order":5,},
-    {"id":{"name":"ob_doc_blik1","path":"objects/ob_doc_blik1/ob_doc_blik1.yy",},"order":5,},
-    {"id":{"name":"sp_doc_playerd","path":"sprites/sp_doc_playerd/sp_doc_playerd.yy",},"order":6,},
-    {"id":{"name":"sp_doc_wall","path":"sprites/sp_doc_wall/sp_doc_wall.yy",},"order":1,},
-    {"id":{"name":"sp_doc_playera","path":"sprites/sp_doc_playera/sp_doc_playera.yy",},"order":7,},
-    {"id":{"name":"sp_doc_fon","path":"sprites/sp_doc_fon/sp_doc_fon.yy",},"order":4,},
-    {"id":{"name":"ob_doc_wall","path":"objects/ob_doc_wall/ob_doc_wall.yy",},"order":2,},
-    {"id":{"name":"sp_doc_nub","path":"sprites/sp_doc_nub/sp_doc_nub.yy",},"order":2,},
-    {"id":{"name":"ob_doc_player","path":"objects/ob_doc_player/ob_doc_player.yy",},"order":1,},
-    {"id":{"name":"sp_doc_player","path":"sprites/sp_doc_player/sp_doc_player.yy",},"order":0,},
+    {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"order":1,},
+    {"id":{"name":"Object1","path":"objects/Object1/Object1.yy",},"order":1,},
+    {"id":{"name":"_________________1x","path":"sprites/_________________1x/_________________1x.yy",},"order":2,},
+    {"id":{"name":"scr_phisics","path":"scripts/scr_phisics/scr_phisics.yy",},"order":0,},
+    {"id":{"name":"rm_rival_station","path":"rooms/rm_rival_station/rm_rival_station.yy",},"order":1,},
+    {"id":{"name":"obj_invisible_wall","path":"objects/obj_invisible_wall/obj_invisible_wall.yy",},"order":2,},
+    {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -19,13 +14,14 @@
     {"name":"Windows","path":"options/windows/options_windows.yy",},
     {"name":"operagx","path":"options/operagx/options_operagx.yy",},
   ],
-  "isDnDProject": false,
+  "defaultScriptType": 1,
   "isEcma": false,
   "configs": {
     "name": "Default",
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_rival_station","path":"rooms/rm_rival_station/rm_rival_station.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "Folders": [
@@ -48,11 +44,11 @@
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
   ],
   "TextureGroups": [
-    {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,"resourceVersion":"1.3","name":"Default","resourceType":"GMTextureGroup",},
+    {"isScaled":true,"compressFormat":"bz2","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,"resourceVersion":"1.3","name":"Default","resourceType":"GMTextureGroup",},
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.2.1.618",
+    "IDEVersion": "2022.3.0.624",
   },
   "resourceVersion": "1.5",
   "name": "city_of_great_hopes_Test1",
