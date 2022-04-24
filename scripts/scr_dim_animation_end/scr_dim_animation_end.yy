@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scr_dim_player_free",
+  "name": "scr_dim_animation_end",
   "tags": [],
   "resourceType": "GMScript",
 }

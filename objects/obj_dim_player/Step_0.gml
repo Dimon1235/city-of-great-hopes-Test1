@@ -14,5 +14,3 @@ keyattack=  keyboard_check_pressed(ord("Z"));
  case	PLAYERSTATE.ATTACK1    : scr_dim_playerstate_meelat(); break;
  case	PLAYERSTATE.ATTACK2    : scr_dim_playerstate_rangeat(); break;
  }
-
-global.reloadt-=1;
