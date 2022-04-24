@@ -2,7 +2,7 @@
 // You can write your code in this editor
 left = keyboard_check(ord("A"));
 right = keyboard_check(ord("D"));
-
+key_attack = keyboard_check(ord("z"));
 
 var move = right - left;
 dsp=move*pspeed;
