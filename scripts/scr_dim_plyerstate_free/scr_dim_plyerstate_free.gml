@@ -7,11 +7,15 @@ else spd = runspd;
 
 directx = keyr - keyl; 
 directy = keyup - keydown;
+
 // змешення швидкості ходьби по діагоналі
 if( directy !=0 && directx !=0 ) spd=spd*0.8; 
 
 x += directx*spd;
-y -= directy*spd;
+y -= directy*spd*0.5;
+
+// відповідність глибини до вертикальної кординати
+depth = -y;
 
 // перевірка стану
 if (keyattack) state = PLAYERSTATE.ATTACK1

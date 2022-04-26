@@ -2,14 +2,13 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_dim_playerstate_meelat(){
 
-
-
 // START ATTACK
 if(sprite_index != spr_dim_atack1){
 	sprite_index = spr_dim_atack1;
 	image_index  = 0;
 	ds_list_clear(hitByAttack);
 	}
+	
 // use attack hitbox
 mask_index = spr_dim_atack1_mask;
 var hitByAttackNow = ds_list_create();
