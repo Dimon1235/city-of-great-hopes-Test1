@@ -13,15 +13,16 @@ if(sprite_index != spr_dim_atack1){
 mask_index = spr_dim_atack1_mask;
 var hitByAttackNow = ds_list_create();
 var hits = instance_place_list(x,y,ob_doc_nub,hitByAttackNow,false);
-if (hits > 0){
+if (hits > 0 && y > ob_doc_nub.y - 15 && y < ob_doc_nub.y + 15){
 	for (var i = 0; i <= hits; i++){
 	var hitID = hitByAttackNow[| i];
 	  if (ds_list_find_index(hitByAttack, hitID) == -1){
 	     ds_list_add(hitByAttack, hitID);
-	     with (hitID){
+	   //  with (hitID){
+			 instance_destroy(ob_doc_nub);
 	  //   EnemyHit(2); 
 	     // Скрипт дамага (scr_tru_damage)
-	     }
+	     //}
 	  }
 	}
 }
