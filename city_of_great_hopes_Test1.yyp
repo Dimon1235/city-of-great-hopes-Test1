@@ -12,6 +12,7 @@
     {"id":{"name":"scr_dim_playerstate_meelat","path":"scripts/scr_dim_playerstate_meelat/scr_dim_playerstate_meelat.yy",},"order":3,},
     {"id":{"name":"sp_doc_playerd","path":"sprites/sp_doc_playerd/sp_doc_playerd.yy",},"order":6,},
     {"id":{"name":"obj_dim_player","path":"objects/obj_dim_player/obj_dim_player.yy",},"order":6,},
+    {"id":{"name":"scr_woi_phisics","path":"scripts/scr_woi_phisics/scr_woi_phisics.yy",},"order":7,},
     {"id":{"name":"sp_doc_wall","path":"sprites/sp_doc_wall/sp_doc_wall.yy",},"order":1,},
     {"id":{"name":"sp_doc_playera","path":"sprites/sp_doc_playera/sp_doc_playera.yy",},"order":7,},
     {"id":{"name":"sp_doc_fon","path":"sprites/sp_doc_fon/sp_doc_fon.yy",},"order":4,},

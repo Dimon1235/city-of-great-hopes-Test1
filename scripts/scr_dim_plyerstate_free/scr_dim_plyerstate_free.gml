@@ -11,8 +11,13 @@ directy = keyup - keydown;
 // змешення швидкості ходьби по діагоналі
 if( directy !=0 && directx !=0 ) spd=spd*0.8; 
 
-x += directx*spd;
-y -= directy*spd*0.5;
+hsp = directx*spd;
+vsp = directy*spd*0.5; 
+
+
+
+x += hsp;
+y -= vsp;
 
 // відповідність глибини до вертикальної кординати
 depth = -y;
