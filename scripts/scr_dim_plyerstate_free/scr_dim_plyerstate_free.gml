@@ -15,13 +15,14 @@ if( directy !=0 && directx !=0 ) spd=spd*0.8;
 hsp = directx*spd;
 vsp = directy*spd*0.5; 
 
+var col=scr_woi_phisics(obj_woi_invisible_wall,hsp,vsp);
 
 
-x += hsp;
-y -= vsp;
+x += col[0];
+y -= col[1];
 
 // відповідність глибини до вертикальної кординати
-depth = -y;
+//depth = -y;
 
 // перевірка стану
 if (keyattack) state = PLAYERSTATE.ATTACK1

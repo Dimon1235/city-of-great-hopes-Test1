@@ -5,23 +5,23 @@ function scr_woi_phisics(obstacle, hsp, vsp){
 var spd = [hsp, vsp]
 if (place_meeting(x + hsp, y, obstacle))
   {
-    spd[0] = 0
-    while (!place_meeting(x + sign(hsp), y, obstacle))
-    {
-      x = x + sign(spd[1])
-    }
+  //  while (!place_meeting(x + sign(spd[0]), y, obstacle))
+   // {
+    //  x = x + sign(spd[0]);
+   // }
+	 spd[0] = 0;
    }
+   
    ///horizontal collision
 
-
-if (place_meeting(x, y + vsp, obstacle)){
-    spd[1] = 0
-    return vsp
-    while (!place_meeting(x + sign(hsp), y, obstacle)){
-      y += sign(spd[0])
+if (place_meeting(x, y - vsp*2, obstacle)){
+   
+   // return vsp;
+   // while (!place_meeting(x , y + sign(vsp), obstacle)){
+     // y += sign(vsp);
      
-   }
-  
+  // }
+  spd[1] = 0;
   }
 return spd
 
