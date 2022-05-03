@@ -22,7 +22,7 @@ x += col[0];
 y -= col[1];
 
 // відповідність глибини до вертикальної кординати
-//depth = -y;
+depth = -y;
 
 // перевірка стану
 if (keyattack) state = PLAYERSTATE.ATTACK1

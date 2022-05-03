@@ -14,7 +14,7 @@ if (place_meeting(x + hsp, y, obstacle))
    
    ///horizontal collision
 
-if (place_meeting(x, y - vsp*2, obstacle)){
+if (place_meeting(x, y - vsp, obstacle)){
    
    // return vsp;
    // while (!place_meeting(x , y + sign(vsp), obstacle)){
