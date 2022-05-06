@@ -10,7 +10,8 @@ keyattack=  keyboard_check_pressed(ord("Z"));
 
 
  switch(state){
- case	PLAYERSTATE.FREE	   : scr_dim_plyerstate_free();    break;
- case	PLAYERSTATE.ATTACK1    : scr_dim_playerstate_meelat(); break;
- case	PLAYERSTATE.ATTACK2    : scr_dim_playerstate_rangeat(); break;
- }
+ case	PLAYERSTATE.FREE	  : scr_dim_plyerstate_free();     break;
+ case	PLAYERSTATE.ATTACK1   : scr_dim_playerstate_meelat();  break;
+ case	PLAYERSTATE.ATTACK2   : scr_dim_playerstate_rangeat(); break;
+ case	PLAYERSTATE.BLOCK     : scr_dim_playerstate_block();   break;
+ } 

@@ -6,7 +6,7 @@
     "path": "folders/Scripts/State.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scr_dim_playerstate_meelat",
+  "name": "scr_dim_playerstate_block",
   "tags": [],
   "resourceType": "GMScript",
 }
