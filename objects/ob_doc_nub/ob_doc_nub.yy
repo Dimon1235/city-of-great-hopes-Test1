@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sp_doc_player",
-    "path": "sprites/sp_doc_player/sp_doc_player.yy",
+    "name": "sp_doc_nub",
+    "path": "sprites/sp_doc_nub/sp_doc_nub.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,16 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [
-    {"x":15.0,"y":51.0,},
-    {"x":47.0,"y":51.0,},
-    {"x":47.0,"y":63.0,},
-    {"x":15.0,"y":63.0,},
+    {"x":0.0,"y":0.0,},
+    {"x":64.0,"y":0.0,},
+    {"x":64.0,"y":64.0,},
+    {"x":0.0,"y":64.0,},
   ],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":17,"eventType":9,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":12,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"ob_doc_blik","path":"objects/ob_doc_blik/ob_doc_blik.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -38,7 +37,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_dim_player",
+  "name": "ob_doc_nub",
   "tags": [],
   "resourceType": "GMObject",
 }
