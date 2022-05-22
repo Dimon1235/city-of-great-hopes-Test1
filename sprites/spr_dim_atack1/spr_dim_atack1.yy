@@ -85,8 +85,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Krus",
+    "path": "folders/Sprites/Krus.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_dim_atack1",
