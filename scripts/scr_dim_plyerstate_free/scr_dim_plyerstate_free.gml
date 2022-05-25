@@ -22,9 +22,9 @@ x += col[0];
 y -= col[1];
 
 // зміна анімації
-if (x>xprevious) sprite_index=spr_dim_Krus_move_right;
-if (x<xprevious) sprite_index=spr_dim_Krus_move_left;
-if (x=xprevious) sprite_index=spr_dim_Krus_stay;
+if (x>xprevious) sprite_index=spr_dim_Ytopurok_move_right;
+if (x<xprevious) sprite_index=spr_dim_Ytopurok_move_left;
+if (x=xprevious) sprite_index=spr_dim_Ytopurok_stay;
 // відповідність глибини до вертикальної кординати
 depth = -y;
 
