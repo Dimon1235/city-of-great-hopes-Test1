@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sp_doc_player",
-    "path": "sprites/sp_doc_player/sp_doc_player.yy",
+    "name": "spr_dim_Ytopurok_stay",
+    "path": "sprites/spr_dim_Ytopurok_stay/spr_dim_Ytopurok_stay.yy",
   },
   "solid": false,
   "visible": true,
