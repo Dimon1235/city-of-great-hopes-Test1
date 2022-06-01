@@ -1,5 +1,9 @@
 {
-  "spriteId": null,
+
+  "spriteId": {
+    "name": "sp_doc_player",
+    "path": "sprites/sp_doc_player/sp_doc_player.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

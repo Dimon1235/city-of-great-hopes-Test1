@@ -2,11 +2,11 @@
 // You can write your code in this editor
 
 move     =  keyboard_check(vk_space);
-keyr     =  keyboard_check(ord("D"));
-keyl     =  keyboard_check(ord("A"));
-keyup    =  keyboard_check(ord("W"));
-keydown  =  keyboard_check(ord("S"));
-keyattack=  keyboard_check_pressed(ord("F"));
+keyr     =  keyboard_check(vk_right);
+keyl     =  keyboard_check(vk_left);
+keyup    =  keyboard_check(vk_up);
+keydown  =  keyboard_check(vk_down);
+keyattack=  keyboard_check_pressed(ord("Z"));
 
 
  switch(state){
