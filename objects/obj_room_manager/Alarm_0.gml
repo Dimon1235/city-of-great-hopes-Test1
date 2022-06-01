@@ -13,4 +13,3 @@ with obj_room_manager{
 		}
 		
 	}
-	
