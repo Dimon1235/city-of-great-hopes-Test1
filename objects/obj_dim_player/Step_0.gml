@@ -15,3 +15,9 @@ keyattack=  keyboard_check_pressed(ord("F"));
  case	PLAYERSTATE.ATTACK2   : scr_dim_playerstate_rangeat(); break;
  case	PLAYERSTATE.BLOCK     : scr_dim_playerstate_block();   break;
  } 
+ if(keyboard_check(vk_shift)){
+	 walkspd=5;
+ }
+ else {
+	 walkspd=2;
+ }
