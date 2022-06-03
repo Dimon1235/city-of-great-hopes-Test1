@@ -1,11 +1,11 @@
 {
-  "spriteId": {
+  "spriteId": null,
+  "solid": false,
+  "visible": true,
+  "spriteMaskId": {
     "name": "spr_woi_invisible_wall",
     "path": "sprites/spr_woi_invisible_wall/spr_woi_invisible_wall.yy",
   },
-  "solid": false,
-  "visible": true,
-  "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,

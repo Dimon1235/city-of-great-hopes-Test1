@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 1299,
+  "bbox_right": 3739,
   "bbox_top": 0,
-  "bbox_bottom": 149,
+  "bbox_bottom": 319,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 1300,
-  "height": 150,
+  "width": 3740,
+  "height": 320,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"4d71cb95-db63-4449-bc22-f28db0154aef","path":"sprites/_________________1x/_________________1x.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4d71cb95-db63-4449-bc22-f28db0154aef","path":"sprites/_________________1x/_________________1x.yy",},"LayerId":{"name":"53aa4cb1-13d8-4248-82fe-95cc20033328","path":"sprites/_________________1x/_________________1x.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"_________________1x","path":"sprites/_________________1x/_________________1x.yy",},"resourceVersion":"1.0","name":"4d71cb95-db63-4449-bc22-f28db0154aef","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"528ecb3c-04fe-489e-813e-fb0dbb319040","path":"sprites/spr_rival_station_butt/spr_rival_station_butt.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"528ecb3c-04fe-489e-813e-fb0dbb319040","path":"sprites/spr_rival_station_butt/spr_rival_station_butt.yy",},"LayerId":{"name":"8aa184ee-5200-464c-85f2-1853b90622af","path":"sprites/spr_rival_station_butt/spr_rival_station_butt.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_rival_station_butt","path":"sprites/spr_rival_station_butt/spr_rival_station_butt.yy",},"resourceVersion":"1.0","name":"528ecb3c-04fe-489e-813e-fb0dbb319040","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"_________________1x","path":"sprites/_________________1x/_________________1x.yy",},
+    "spriteId": {"name":"spr_rival_station_butt","path":"sprites/spr_rival_station_butt/spr_rival_station_butt.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"538b2ac6-7db3-4996-97da-9205f0660dba","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4d71cb95-db63-4449-bc22-f28db0154aef","path":"sprites/_________________1x/_________________1x.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ecfd861f-147b-4787-aeff-60a0ce65b101","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"528ecb3c-04fe-489e-813e-fb0dbb319040","path":"sprites/spr_rival_station_butt/spr_rival_station_butt.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"_________________1x","path":"sprites/_________________1x/_________________1x.yy",},
+    "parent": {"name":"spr_rival_station_butt","path":"sprites/spr_rival_station_butt/spr_rival_station_butt.yy",},
     "resourceVersion": "1.4",
-    "name": "_________________1x",
+    "name": "spr_rival_station_butt",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"53aa4cb1-13d8-4248-82fe-95cc20033328","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8aa184ee-5200-464c-85f2-1853b90622af","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "_________________1x",
+  "name": "spr_rival_station_butt",
   "tags": [],
   "resourceType": "GMSprite",
 }
