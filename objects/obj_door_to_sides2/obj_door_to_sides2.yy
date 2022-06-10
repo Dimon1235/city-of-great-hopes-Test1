@@ -31,7 +31,7 @@
     "path": "folders/Objects/door_rival_station.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_door_to_rival_station",
+  "name": "obj_door_to_sides2",
   "tags": [],
   "resourceType": "GMObject",
 }

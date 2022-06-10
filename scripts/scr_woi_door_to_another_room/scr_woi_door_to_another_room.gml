@@ -5,7 +5,7 @@ function room_goto_dark(room_name, player_x, player_y){
 		if global.dark =  0 {
 			alarm[0] = 1
 			roomgo = room_name
-		playerx = player_x
+		playerx = player_x	
 		playery = player_y
 		
 		}

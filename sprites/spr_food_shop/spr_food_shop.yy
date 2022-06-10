@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 3739,
+  "bbox_right": 321,
   "bbox_top": 0,
-  "bbox_bottom": 319,
+  "bbox_bottom": 119,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 3740,
-  "height": 320,
+  "width": 322,
+  "height": 120,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"528ecb3c-04fe-489e-813e-fb0dbb319040","path":"sprites/spr_rival_station_butt/spr_rival_station_butt.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"528ecb3c-04fe-489e-813e-fb0dbb319040","path":"sprites/spr_rival_station_butt/spr_rival_station_butt.yy",},"LayerId":{"name":"8aa184ee-5200-464c-85f2-1853b90622af","path":"sprites/spr_rival_station_butt/spr_rival_station_butt.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_rival_station_butt","path":"sprites/spr_rival_station_butt/spr_rival_station_butt.yy",},"resourceVersion":"1.0","name":"528ecb3c-04fe-489e-813e-fb0dbb319040","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"1e106b28-1127-41d9-be88-70f244ad3d63","path":"sprites/spr_food_shop/spr_food_shop.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1e106b28-1127-41d9-be88-70f244ad3d63","path":"sprites/spr_food_shop/spr_food_shop.yy",},"LayerId":{"name":"2db25363-502d-4ebf-b21f-28b7634124e9","path":"sprites/spr_food_shop/spr_food_shop.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_food_shop","path":"sprites/spr_food_shop/spr_food_shop.yy",},"resourceVersion":"1.0","name":"1e106b28-1127-41d9-be88-70f244ad3d63","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_rival_station_butt","path":"sprites/spr_rival_station_butt/spr_rival_station_butt.yy",},
+    "spriteId": {"name":"spr_food_shop","path":"sprites/spr_food_shop/spr_food_shop.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"ecfd861f-147b-4787-aeff-60a0ce65b101","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"528ecb3c-04fe-489e-813e-fb0dbb319040","path":"sprites/spr_rival_station_butt/spr_rival_station_butt.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"69e13a7a-2ab8-4598-b6cc-1db37e874a16","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1e106b28-1127-41d9-be88-70f244ad3d63","path":"sprites/spr_food_shop/spr_food_shop.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_rival_station_butt","path":"sprites/spr_rival_station_butt/spr_rival_station_butt.yy",},
+    "parent": {"name":"spr_food_shop","path":"sprites/spr_food_shop/spr_food_shop.yy",},
     "resourceVersion": "1.4",
-    "name": "spr_rival_station_butt",
+    "name": "spr_food_shop",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8aa184ee-5200-464c-85f2-1853b90622af","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2db25363-502d-4ebf-b21f-28b7634124e9","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/rival_station.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_rival_station_butt",
+  "name": "spr_food_shop",
   "tags": [],
   "resourceType": "GMSprite",
 }

@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "rival_station",
+    "path": "folders/Sprites/rival_station.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_rival_station",
