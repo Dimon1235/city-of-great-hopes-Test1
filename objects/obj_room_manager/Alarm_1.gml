@@ -6,11 +6,10 @@ with obj_room_manager {
 		alarm[1] = 1;
 	
 	}
-	if global.dark > 0{
+	if room = roomgo{
 		
-	obj_dim_player.x = playerx
-	obj_dim_player.y = playery
-	
+		obj_dim_player.x = playerx
+		obj_dim_player.y = playery
 	
 	}
 }

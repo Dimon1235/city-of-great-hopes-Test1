@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 3739,
+  "bbox_right": 3699,
   "bbox_top": 0,
-  "bbox_bottom": 319,
+  "bbox_bottom": 299,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 3740,
-  "height": 320,
+  "width": 3700,
+  "height": 300,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"528ecb3c-04fe-489e-813e-fb0dbb319040","path":"sprites/spr_rival_station_butt/spr_rival_station_butt.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"528ecb3c-04fe-489e-813e-fb0dbb319040","path":"sprites/spr_rival_station_butt/spr_rival_station_butt.yy",},"LayerId":{"name":"8aa184ee-5200-464c-85f2-1853b90622af","path":"sprites/spr_rival_station_butt/spr_rival_station_butt.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_rival_station_butt","path":"sprites/spr_rival_station_butt/spr_rival_station_butt.yy",},"resourceVersion":"1.0","name":"528ecb3c-04fe-489e-813e-fb0dbb319040","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"6d223e06-7cf0-4f0d-a834-2fc254aebe84","path":"sprites/spr_street_second_side/spr_street_second_side.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6d223e06-7cf0-4f0d-a834-2fc254aebe84","path":"sprites/spr_street_second_side/spr_street_second_side.yy",},"LayerId":{"name":"b4ab6cf8-9b47-4d59-b4f6-f09e3dd220cc","path":"sprites/spr_street_second_side/spr_street_second_side.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_street_second_side","path":"sprites/spr_street_second_side/spr_street_second_side.yy",},"resourceVersion":"1.0","name":"6d223e06-7cf0-4f0d-a834-2fc254aebe84","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_rival_station_butt","path":"sprites/spr_rival_station_butt/spr_rival_station_butt.yy",},
+    "spriteId": {"name":"spr_street_second_side","path":"sprites/spr_street_second_side/spr_street_second_side.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"ecfd861f-147b-4787-aeff-60a0ce65b101","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"528ecb3c-04fe-489e-813e-fb0dbb319040","path":"sprites/spr_rival_station_butt/spr_rival_station_butt.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"fa622e36-3ad3-484a-a70f-e02d21644504","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6d223e06-7cf0-4f0d-a834-2fc254aebe84","path":"sprites/spr_street_second_side/spr_street_second_side.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_rival_station_butt","path":"sprites/spr_rival_station_butt/spr_rival_station_butt.yy",},
+    "parent": {"name":"spr_street_second_side","path":"sprites/spr_street_second_side/spr_street_second_side.yy",},
     "resourceVersion": "1.4",
-    "name": "spr_rival_station_butt",
+    "name": "spr_street_second_side",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8aa184ee-5200-464c-85f2-1853b90622af","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b4ab6cf8-9b47-4d59-b4f6-f09e3dd220cc","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/rival_station.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_rival_station_butt",
+  "name": "spr_street_second_side",
   "tags": [],
   "resourceType": "GMSprite",
 }
