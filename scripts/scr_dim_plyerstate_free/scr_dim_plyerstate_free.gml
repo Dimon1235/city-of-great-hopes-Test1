@@ -19,7 +19,7 @@ var col=scr_woi_phisics(obj_woi_invisible_wall,hsp,vsp);
  
 
 x += col[0];
-y -= col[1];
+y -= col[1]; 
  sprit="Ytopurok";
  
 // зміна анімації
