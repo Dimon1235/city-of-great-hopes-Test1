@@ -1,15 +1,12 @@
 {
   "spriteId": {
-    "name": "Zerosprite",
-    "path": "sprites/Zerosprite/Zerosprite.yy",
+    "name": "spr_shadow",
+    "path": "sprites/spr_shadow/spr_shadow.yy",
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": {
-    "name": "spr_woi_invisible_wall",
-    "path": "sprites/spr_woi_invisible_wall/spr_woi_invisible_wall.yy",
-  },
-  "persistent": false,
+  "spriteMaskId": null,
+  "persistent": true,
   "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
@@ -22,13 +19,11 @@
   "physicsFriction": 0.2,
   "physicsStartAwake": true,
   "physicsKinematic": false,
-  "physicsShapePoints": [
-    {"x":0.0,"y":0.0,},
-    {"x":64.0,"y":0.0,},
-    {"x":64.0,"y":64.0,},
-    {"x":0.0,"y":64.0,},
+  "physicsShapePoints": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
-  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -36,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_woi_invisible_wall",
+  "name": "obj_dim_shadow",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -3,7 +3,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_dim_plyerstate_free(){
 //визначення швидкості руху персонажа (біг, спокійна хотьба)
-if (move == 0 ) spd = walkspd;
+/*if (move == 0 ) spd = walkspd;
 else spd = runspd;
 
 directx = keyr - keyl; 
@@ -19,7 +19,11 @@ var col=scr_woi_phisics(obj_woi_invisible_wall,hsp,vsp);
  
 
 x += col[0];
-y -= col[1]; 
+y -= col[1]; */
+
+x=obj_dim_shadow.x;
+y=obj_dim_shadow.y;
+
  sprit="Ytopurok";
  
 // зміна анімації
