@@ -15,11 +15,8 @@ if( directy !=0 && directx !=0 ) spd=spd*0.8;
 hsp = directx*spd;
 vsp = directy*spd*0.5; 
 
-var col=scr_woi_phisics(obj_woi_invisible_wall,hsp,vsp);
-
-
-x += col[0];
-y -= col[1];
+x += hsp
+y -= vsp
 
 // зміна анімації
 if (x>xprevious) sprite_index=spr_dim_Ytopurok_move_right;
