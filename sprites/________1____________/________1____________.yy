@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 3739,
+  "bbox_right": 170,
   "bbox_top": 0,
-  "bbox_bottom": 319,
+  "bbox_bottom": 94,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 3740,
-  "height": 320,
+  "width": 171,
+  "height": 95,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"528ecb3c-04fe-489e-813e-fb0dbb319040","path":"sprites/spr_rival_station_butt/spr_rival_station_butt.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"528ecb3c-04fe-489e-813e-fb0dbb319040","path":"sprites/spr_rival_station_butt/spr_rival_station_butt.yy",},"LayerId":{"name":"8aa184ee-5200-464c-85f2-1853b90622af","path":"sprites/spr_rival_station_butt/spr_rival_station_butt.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_rival_station_butt","path":"sprites/spr_rival_station_butt/spr_rival_station_butt.yy",},"resourceVersion":"1.0","name":"528ecb3c-04fe-489e-813e-fb0dbb319040","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"77e8da41-7219-4f47-819c-be0d59f5ce89","path":"sprites/________1____________/________1____________.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"77e8da41-7219-4f47-819c-be0d59f5ce89","path":"sprites/________1____________/________1____________.yy",},"LayerId":{"name":"9e665a94-b73f-4517-b5ab-96d82b3baeb0","path":"sprites/________1____________/________1____________.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"________1____________","path":"sprites/________1____________/________1____________.yy",},"resourceVersion":"1.0","name":"77e8da41-7219-4f47-819c-be0d59f5ce89","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_rival_station_butt","path":"sprites/spr_rival_station_butt/spr_rival_station_butt.yy",},
+    "spriteId": {"name":"________1____________","path":"sprites/________1____________/________1____________.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"ecfd861f-147b-4787-aeff-60a0ce65b101","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"528ecb3c-04fe-489e-813e-fb0dbb319040","path":"sprites/spr_rival_station_butt/spr_rival_station_butt.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"25f582ee-b3c5-4096-9c2f-02385a01c0dc","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"77e8da41-7219-4f47-819c-be0d59f5ce89","path":"sprites/________1____________/________1____________.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_rival_station_butt","path":"sprites/spr_rival_station_butt/spr_rival_station_butt.yy",},
+    "parent": {"name":"________1____________","path":"sprites/________1____________/________1____________.yy",},
     "resourceVersion": "1.4",
-    "name": "spr_rival_station_butt",
+    "name": "________1____________",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8aa184ee-5200-464c-85f2-1853b90622af","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9e665a94-b73f-4517-b5ab-96d82b3baeb0","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/rival_station.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_rival_station_butt",
+  "name": "________1____________",
   "tags": [],
   "resourceType": "GMSprite",
 }
