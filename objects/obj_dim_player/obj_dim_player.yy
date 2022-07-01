@@ -18,12 +18,12 @@
   "physicsAngularDamping": 0.1,
   "physicsFriction": 0.2,
   "physicsStartAwake": true,
-  "physicsKinematic": true,
+  "physicsKinematic": false,
   "physicsShapePoints": [
-    {"x":0.0,"y":54.0,},
-    {"x":40.0,"y":54.0,},
-    {"x":40.0,"y":69.0,},
-    {"x":0.0,"y":69.0,},
+    {"x":6.0,"y":58.0,},
+    {"x":35.0,"y":58.0,},
+    {"x":35.0,"y":70.0,},
+    {"x":6.0,"y":70.0,},
   ],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
