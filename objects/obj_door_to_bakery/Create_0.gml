@@ -1,4 +1,3 @@
-
 ///ссылки на комнаты
 newroom = rm_bakery
 oldroom = rm_street_first_side
