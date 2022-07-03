@@ -2,6 +2,7 @@
 // You can write your code in this editor
 walkspd = 20;
 runspd  = 40;
+playernum = 0;
 //global.reloadt=0;
 //weaspon=1;
 
