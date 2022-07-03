@@ -10,10 +10,7 @@ keyattack=  keyboard_check_pressed(ord("F"));
 if (keyboard_check(ord("1"))) playernum = 0;
 if (keyboard_check(ord("2"))) playernum = 1;
 key_room_go = keyboard_check(ord("E"))
-if(mouse_check_button_pressed(mb_left)){
-	instance_create_layer(mouse_x, mouse_y, "Text", obj_sek_textbox);
 
-}
 
  switch(state){
  case	PLAYERSTATE.FREE	  : scr_dim_plyerstate_free();     break;
@@ -21,5 +18,3 @@ if(mouse_check_button_pressed(mb_left)){
  case	PLAYERSTATE.ATTACK2   : scr_dim_playerstate_rangeat(); break;
  case	PLAYERSTATE.BLOCK     : scr_dim_playerstate_block();   break;
  } 
-
-
