@@ -10,7 +10,7 @@ if(sprite_index != spr_dim_atack_right && sprite_index != spr_dim_atack_left ){
 	if (x < ob_doc_nub.x)  pl_atackdirection = "right";
 	else pl_atackdirection = "left";
 	}
-	else pl_atackdirection = "right";
+	else pl_atackdirection = lastmove;
 		
 	sprite_index = asset_get_index("spr_dim_atack_" + pl_atackdirection );
 	image_index  = 0;
