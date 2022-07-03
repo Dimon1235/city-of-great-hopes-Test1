@@ -15,11 +15,25 @@ if( directy !=0 && directx !=0 ) spd=spd*0.8;
 hsp = directx*spd;
 vsp = directy*spd*0.5; 
 
-var col=scr_woi_phisics(obj_woi_invisible_wall,hsp,vsp);
+x += hsp
+y -= vsp
 
+sprit="Ytopurok";
+ 
+// зміна анімації
+if (playernum == 0) sprit="Ytopurok";
+if (playernum == 1) sprit="Krus";
 
-x += col[0];
-y -= col[1];
+// анімація ходьби по вертикалі відповідно до останнього напрямку руху по горизонталі
+if (y!=yprevious && lastmove=="right" ) sprite_index = asset_get_index( "spr_dim_" + sprit +"_move_right");
+if (y!=yprevious && lastmove=="left" ) sprite_index = asset_get_index( "spr_dim_" + sprit + "_move_left");
+
+// зміна анімації руху по горизонталі
+if (x>xprevious){ sprite_index = asset_get_index("spr_dim_" + sprit +"_move_right");
+ lastmove = "right";}
+if (x<xprevious){ sprite_index = asset_get_index("spr_dim_" + sprit + "_move_left");
+lastmove = "left";}
+if (x==xprevious && y==yprevious) sprite_index = asset_get_index("spr_dim_" + sprit + "_stay");
 
 // відповідність глибини до вертикальної кординати
 depth = -y;

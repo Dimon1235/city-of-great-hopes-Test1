@@ -2,11 +2,14 @@
 // You can write your code in this editor
 
 move     =  keyboard_check(vk_space);
-keyr     =  keyboard_check(vk_right);
-keyl     =  keyboard_check(vk_left);
-keyup    =  keyboard_check(vk_up);
-keydown  =  keyboard_check(vk_down);
-keyattack=  keyboard_check_pressed(ord("Z"));
+keyr     =  keyboard_check(ord("D"));
+keyl     =  keyboard_check(ord("A"));
+keyup    =  keyboard_check(ord("W"));
+keydown  =  keyboard_check(ord("S"));
+keyattack=  keyboard_check_pressed(ord("F"));
+if (keyboard_check(ord("1"))) playernum = 0;
+if (keyboard_check(ord("2"))) playernum = 1;
+key_room_go = keyboard_check(ord("E"))
 
 
  switch(state){
