@@ -24,16 +24,16 @@ sprit="Ytopurok";
 if (playernum == 0) sprit="Ytopurok";
 if (playernum == 1) sprit="Krus";
 
-// анімація ходьби по вертикалі відповідно до останнього напрямку руху по горизонталі
-if (y!=yprevious && lastmove=="right" ) sprite_index = asset_get_index( "spr_dim_" + sprit +"_move_right");
-if (y!=yprevious && lastmove=="left" ) sprite_index = asset_get_index( "spr_dim_" + sprit + "_move_left");
+//// анімація ходьби по вертикалі відповідно до останнього напрямку руху по горизонталі
+//if (y!=yprevious && lastmove=="right" ) sprite_index = asset_get_index( "spr_dim_" + sprit +"_move_right");
+//if (y!=yprevious && lastmove=="left" ) sprite_index = asset_get_index( "spr_dim_" + sprit + "_move_left");
 
-// зміна анімації руху по горизонталі
-if (x>xprevious){ sprite_index = asset_get_index("spr_dim_" + sprit +"_move_right");
- lastmove = "right";}
-if (x<xprevious){ sprite_index = asset_get_index("spr_dim_" + sprit + "_move_left");
-lastmove = "left";}
-if (x==xprevious && y==yprevious) sprite_index = asset_get_index("spr_dim_" + sprit + "_stay");
+//// зміна анімації руху по горизонталі
+//if (x>xprevious){ sprite_index = asset_get_index("spr_dim_" + sprit +"_move_right");
+// lastmove = "right";}
+//if (x<xprevious){ sprite_index = asset_get_index("spr_dim_" + sprit + "_move_left");
+//lastmove = "left";}
+//if (x==xprevious && y==yprevious) sprite_index = asset_get_index("spr_dim_" + sprit + "_stay");
 
 // відповідність глибини до вертикальної кординати
 depth = -y;

@@ -12,4 +12,3 @@ old_help_sprite = spr_dark
 new_help_sprite = spr_dark
 ///переменная отвечающая за рисование подсказки
 drowing = false
-
