@@ -1,10 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
-walkspd = 20;
-runspd  = 40;
+walkspd = 5;
+runspd  = 10;
 playernum = 0;
-//global.reloadt=0;
-//weaspon=1;
+lastmove = "right";
+
 
 state=PLAYERSTATE.FREE;
 hitByAttack = ds_list_create();

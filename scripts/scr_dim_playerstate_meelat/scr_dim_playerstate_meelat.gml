@@ -41,7 +41,6 @@ if(scr_dim_animation_end())
 {
 sprite_index = spr_dim_Krus_stay;
 state = PLAYERSTATE.FREE;
-
 }
 
 
