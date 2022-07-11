@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sp_doc_replicas_afro_vasya_1",
-    "path": "sprites/sp_doc_replicas_afro_vasya_1/sp_doc_replicas_afro_vasya_1.yy",
+    "name": "sp_doc_press",
+    "path": "sprites/sp_doc_press/sp_doc_press.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,11 +24,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "afro_vasya",
-    "path": "folders/Objects/replicas/afro_vasya.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ob_doc_replicas_afro_vasya_1",
+  "name": "ob_doc_press",
   "tags": [],
   "resourceType": "GMObject",
 }

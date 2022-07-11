@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "replicas",
-    "path": "folders/Objects/replicas.yy",
+    "name": "afro_vasya",
+    "path": "folders/Objects/replicas/afro_vasya.yy",
   },
   "resourceVersion": "1.0",
   "name": "ob_doc_replicas_afro_vasya_2",

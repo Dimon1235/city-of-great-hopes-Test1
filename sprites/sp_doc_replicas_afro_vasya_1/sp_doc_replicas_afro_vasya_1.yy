@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "replicas",
-    "path": "folders/Sprites/replicas.yy",
+    "name": "afro_vasya",
+    "path": "folders/Sprites/replicas/afro_vasya.yy",
   },
   "resourceVersion": "1.0",
   "name": "sp_doc_replicas_afro_vasya_1",

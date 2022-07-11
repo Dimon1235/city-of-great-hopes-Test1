@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sp_doc_replicas_afro_vasya_1",
-    "path": "sprites/sp_doc_replicas_afro_vasya_1/sp_doc_replicas_afro_vasya_1.yy",
+    "name": "sp_doc_babka",
+    "path": "sprites/sp_doc_babka/sp_doc_babka.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,15 +20,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "afro_vasya",
-    "path": "folders/Objects/replicas/afro_vasya.yy",
+    "name": "babka",
+    "path": "folders/Objects/NPS/babka.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ob_doc_replicas_afro_vasya_1",
+  "name": "ob_doc_babka",
   "tags": [],
   "resourceType": "GMObject",
 }
