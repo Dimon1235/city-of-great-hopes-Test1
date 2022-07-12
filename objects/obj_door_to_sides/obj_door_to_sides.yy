@@ -2,7 +2,6 @@
   "spriteId": null,
   "solid": false,
   "visible": true,
-  "managed": true,
   "spriteMaskId": {
     "name": "spr_woi_invisible_wall",
     "path": "sprites/spr_woi_invisible_wall/spr_woi_invisible_wall.yy",

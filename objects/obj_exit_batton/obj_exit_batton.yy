@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sp_doc_player",
-    "path": "sprites/sp_doc_player/sp_doc_player.yy",
+    "name": "spr_menu_batton",
+    "path": "sprites/spr_menu_batton/spr_menu_batton.yy",
   },
   "solid": false,
   "visible": true,
@@ -19,25 +19,19 @@
   "physicsFriction": 0.2,
   "physicsStartAwake": true,
   "physicsKinematic": false,
-  "physicsShapePoints": [
-    {"x":18.0,"y":22.0,},
-    {"x":26.0,"y":22.0,},
-    {"x":26.0,"y":32.0,},
-    {"x":18.0,"y":32.0,},
-  ],
+  "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"ob_doc_blik1","path":"objects/ob_doc_blik1/ob_doc_blik1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":7,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "menu",
+    "path": "folders/Objects/menu.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ob_doc_player",
+  "name": "obj_exit_batton",
   "tags": [],
   "resourceType": "GMObject",
 }
