@@ -1,5 +1,8 @@
-/// @description Insert description here
+/// @desc ходьба
 // You can write your code in this editor
+
+//Эту срочку ко всему что должно стопиться
+//if(global.game_paused) exit;
 
 move     =  keyboard_check(vk_space);
 keyr     =  keyboard_check(ord("D"));
