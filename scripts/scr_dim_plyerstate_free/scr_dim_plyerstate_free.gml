@@ -22,8 +22,7 @@ y -= vsp
 if (x>xprevious) sprite_index=spr_dim_Ytopurok_move_right;
 if (x<xprevious) sprite_index=spr_dim_Ytopurok_move_left;
 if (x=xprevious) sprite_index=spr_dim_Ytopurok_stay;
-// відповідність глибини до вертикальної кординати
-depth = -y;
+
 
 // перевірка стану
 if (keyattack) state = PLAYERSTATE.ATTACK1

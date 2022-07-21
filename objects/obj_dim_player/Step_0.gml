@@ -6,11 +6,13 @@ keyr     =  keyboard_check(ord("D"));
 keyl     =  keyboard_check(ord("A"));
 keyup    =  keyboard_check(ord("W"));
 keydown  =  keyboard_check(ord("S"));
-keyattack=  keyboard_check_pressed(ord("F"));
+keyattack =  keyboard_check_pressed(ord("F"));
 if (keyboard_check(ord("1"))) playernum = 0;
 if (keyboard_check(ord("2"))) playernum = 1;
 key_room_go = keyboard_check(ord("E"))
 
+// відповідність глибини до вертикальної кординати
+depth = (-y - 60);
 
  switch(state){
  case	PLAYERSTATE.FREE	  : scr_dim_plyerstate_free();     break;
