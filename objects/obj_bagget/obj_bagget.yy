@@ -1,14 +1,14 @@
 {
-  "spriteId": null,
-  "solid": true,
-  "visible": false,
-  "spriteMaskId": {
-    "name": "spr_woi_invisible_wall",
-    "path": "sprites/spr_woi_invisible_wall/spr_woi_invisible_wall.yy",
+  "spriteId": {
+    "name": "spr_bugget",
+    "path": "sprites/spr_bugget/spr_bugget.yy",
   },
+  "solid": false,
+  "visible": true,
+  "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
-  "physicsObject": true,
+  "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 1,
@@ -17,15 +17,12 @@
   "physicsLinearDamping": 0.1,
   "physicsAngularDamping": 0.1,
   "physicsFriction": 0.2,
-  "physicsStartAwake": false,
+  "physicsStartAwake": true,
   "physicsKinematic": false,
-  "physicsShapePoints": [
-    {"x":0.0,"y":0.0,},
-    {"x":16.0,"y":0.0,},
-    {"x":16.0,"y":16.0,},
-    {"x":0.0,"y":16.0,},
+  "physicsShapePoints": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
-  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -33,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_woi_invisible_wall",
+  "name": "obj_bagget",
   "tags": [],
   "resourceType": "GMObject",
 }
