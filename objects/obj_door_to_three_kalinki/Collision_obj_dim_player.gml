@@ -11,3 +11,4 @@ drowing = true
 if room = newroom{
 drowing = true
 }
+

@@ -12,8 +12,12 @@ if (keyboard_check(ord("2"))) playernum = 1;
 key_room_go = keyboard_check(ord("E"))
 
 // відповідність глибини до вертикальної кординати
-depth = (-y - 60);
-
+if y > 60{
+	depth = (-y - 60);
+	}
+else{ 
+	depth = -y
+	}
  switch(state){
  case	PLAYERSTATE.FREE	  : scr_dim_plyerstate_free();     break;
  case	PLAYERSTATE.ATTACK1   : scr_dim_playerstate_meelat();  break;
