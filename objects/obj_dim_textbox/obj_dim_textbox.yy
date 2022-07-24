@@ -26,7 +26,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Dialogs",
-    "path": "folders/Objects/Dialogs.yy",
+    "path": "folders/Dialogs.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_dim_textbox",

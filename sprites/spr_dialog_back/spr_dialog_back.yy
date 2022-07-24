@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Dialogs",
-    "path": "folders/Objects/Dialogs.yy",
+    "path": "folders/Dialogs.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_dialog_back",

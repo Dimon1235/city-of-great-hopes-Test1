@@ -1,7 +1,8 @@
 accept_key=keyboard_check_pressed(ord("Z"));
-textbox_x = camera_get_view_x(view_camera[0])
-textbox_y = camera_get_view_y(view_camera[0])+100;
-
+//textbox_x = camera_get_view_x(view_camera[0])
+//textbox_y = camera_get_view_y(view_camera[0])+100;
+textbox_x = obj_dim_player.x-120;
+textbox_y =  obj_dim_player.y-100;
 //setup
 if setup == false {
 	setup = true;
