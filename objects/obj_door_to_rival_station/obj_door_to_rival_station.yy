@@ -2,7 +2,6 @@
   "spriteId": null,
   "solid": false,
   "visible": true,
-  "managed": true,
   "spriteMaskId": {
     "name": "spr_woi_invisible_wall",
     "path": "sprites/spr_woi_invisible_wall/spr_woi_invisible_wall.yy",
@@ -34,8 +33,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "door_rival_station",
-    "path": "folders/Objects/door_rival_station.yy",
+    "name": "doors_rival_station",
+    "path": "folders/Objects/doors_rival_station.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_door_to_rival_station",

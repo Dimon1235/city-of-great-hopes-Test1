@@ -2,23 +2,15 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_dim_playerstate_meelat(){
 
-
 // START ATTACK
-if(sprite_index != spr_dim_atack_right && sprite_index != spr_dim_atack_left ){
-	// find direction of atack
-	if(instance_exists(ob_doc_nub)){
-	if (x < ob_doc_nub.x)  pl_atackdirection = "right";
-	else pl_atackdirection = "left";
-	}
-	else pl_atackdirection = lastmove;
-		
-	sprite_index = asset_get_index("spr_dim_atack_" + pl_atackdirection );
+if(sprite_index != spr_dim_atack1){
+	sprite_index = spr_dim_atack1;
 	image_index  = 0;
 	ds_list_clear(hitByAttack);
 	}
 	
 // use attack hitbox
-mask_index = asset_get_index("spr_dim_atack_"+ pl_atackdirection);
+mask_index = spr_dim_atack1_mask;
 var hitByAttackNow = ds_list_create();
 var hits = instance_place_list(x,y,ob_doc_nub,hitByAttackNow,false);
 if (hits > 0 && y > ob_doc_nub.y - 15 && y < ob_doc_nub.y + 15){
