@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "door_rival_station",
-    "path": "folders/Objects/door_rival_station.yy",
+    "name": "doors_rival_station",
+    "path": "folders/Objects/doors_rival_station.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_door_to_shop",

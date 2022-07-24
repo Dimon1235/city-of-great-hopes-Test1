@@ -1,11 +1,11 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_torch",
+    "path": "sprites/spr_torch/spr_torch.yy",
+  },
   "solid": false,
   "visible": true,
-  "spriteMaskId": {
-    "name": "spr_woi_invisible_wall",
-    "path": "sprites/spr_woi_invisible_wall/spr_woi_invisible_wall.yy",
-  },
+  "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
@@ -19,20 +19,24 @@
   "physicsFriction": 0.2,
   "physicsStartAwake": true,
   "physicsKinematic": false,
-  "physicsShapePoints": [],
+  "physicsShapePoints": [
+    {"x":379.0,"y":1431.0,},
+    {"x":459.0,"y":1431.0,},
+    {"x":459.0,"y":1460.0,},
+    {"x":379.0,"y":1460.0,},
+  ],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_dim_player","path":"objects/obj_dim_player/obj_dim_player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_dim_player","path":"objects/obj_dim_player/obj_dim_player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "doors_rival_station",
-    "path": "folders/Objects/doors_rival_station.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_door_to_sides",
+  "name": "obj_torch",
   "tags": [],
   "resourceType": "GMObject",
 }

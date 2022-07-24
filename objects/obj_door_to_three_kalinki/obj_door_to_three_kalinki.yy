@@ -32,7 +32,7 @@
     "path": "folders/Objects/doors_rival_station.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_door_to_sides",
+  "name": "obj_door_to_three_kalinki",
   "tags": [],
   "resourceType": "GMObject",
 }

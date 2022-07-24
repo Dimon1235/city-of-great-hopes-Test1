@@ -40,8 +40,7 @@ if (x<xprevious){ sprite_index = asset_get_index("spr_dim_" + sprit + "_move_lef
 lastmove = 0;}
 if (x==xprevious && y==yprevious) sprite_index = asset_get_index("spr_dim_" + sprit + "_stay");
 
-// відповідність глибини до вертикальної кординати
-depth = -y;
+
 
 // перевірка стану
 if (keyattack) state = PLAYERSTATE.ATTACK1

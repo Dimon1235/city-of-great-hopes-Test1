@@ -16,5 +16,5 @@ drowing = false
 help_x = 60
 help_y = -10
 ///подсказка с лева или с права | true = left | false = right |
-old_side = false
-new_side = false
+old_side = true
+new_side = true
