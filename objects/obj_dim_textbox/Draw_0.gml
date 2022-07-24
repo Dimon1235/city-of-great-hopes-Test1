@@ -1,4 +1,4 @@
-accept_key=keyboard_check_pressed(ord("E"));
+accept_key=keyboard_check_pressed(ord("Z"));
 textbox_x = camera_get_view_x(view_camera[0])
 textbox_y = camera_get_view_y(view_camera[0])+100;
 
@@ -16,14 +16,15 @@ if setup == false {
 		text_x_offset[p] = 44;
 		}	
 }
-	
-if draw_char < text_length {
+	 
+// друкування тексту
+if draw_char < text_length[0] {
 	draw_char += text_spd;
 	draw_char = clamp(draw_char, 0, text_length[page]);
 }
 
 //  пролистування тексту
-if accept_key
+	if accept_key
 {
 	if draw_char == text_length[page]	
 		{
@@ -40,6 +41,12 @@ if accept_key
 		}
 	
 }
-
-txt_img+=txtb_img_spd;
+// малюваня контурів тексту
+txtb_img+=txtb_img_spd;
+txt_spr_w = sprite_get_width(txtb_sprite);
+txt_spr_h = sprite_get_height(txtb_sprite);
+draw_sprite_ext(txtb_sprite, txtb_img, textbox_x + text_x_offset[page], textbox_y, textbox_width/txt_spr_w, textbox_hight/txt_spr_h, 0, c_black, 1)
+// вивід тксту
+var _drawtext = string_copy(text[page], 1, draw_char)
+draw_text_ext(textbox_x + text_x_offset[page] + border, textbox_y+border,_drawtext, line_sep,line_widt,)
 
